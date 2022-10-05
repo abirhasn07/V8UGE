@@ -1,6 +1,6 @@
 
 nav{
-    min-height: 80px;
+   height: 80px;
     background-color: var(--clr-primary);
 }
 nav>.container{
@@ -15,6 +15,7 @@ nav>.container{
     justify-content: center;
     align-items: center;
     min-height: 80px;
+   
 }
 
 .nav-list{
@@ -35,8 +36,108 @@ nav>.container{
     font-size: var(--fs-h5);
     text-decoration: none;
     color: currentColor;
+    display: flex;
+    min-height: 80px;
+    line-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    gap: .5em;
+    cursor: pointer;
+}
+.search-icon{
+    margin-top: 3px;
 }
 
 .mobile-menu-icons{
     display: none;
+}
+.mobile-menu-list{
+    display: none;
+}
+
+@media (max-width:600px) {
+    nav{
+        position: fixed;
+        top: 0;
+  
+        width: 100%;
+
+        z-index: 999;
+        box-shadow: 5px 10px 12px rgba(37, 37, 37, 0.10);
+     
+    }
+    
+    .logo{
+        margin-left: 1rem;
+    }
+    .mobile-menu-icons{
+        display: block;
+        margin-top: 1em;
+    }
+    .nav-list{
+    display: none;
+}
+    .mobile-menu-list{
+        display: flex;
+        height: 80px;
+        justify-content: space-between;
+        align-items: center;
+        width: 45%;
+        line-height: 80px;
+    }
+    .mobile-menu-list li{
+        line-height: 2rem;
+       
+    }
+   .mobile-menu-list li:last-child{
+    line-height: 1.8rem;
+   }
+    
+   .cart-icon{
+    position: relative;
+
+   }
+   .cart-icon::before{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: var(--clr-accent);
+    content: attr(data-count);
+    right: -10px;
+    top: -10px;
+  
+    font-size: 1rem;
+    color: var(--clr-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wishlist{
+    position: relative;
+}
+.wishlist::before{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: var(--clr-accent);
+    content: attr(data-count);
+    right: -10px;
+    top: -10px;
+  
+    font-size: 1rem;
+    color: var(--clr-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 }

@@ -4,7 +4,7 @@ border-top: 1px solid var(--clr-secondary);
 border-bottom: 1px solid var(--clr-secondary);
 border-left: 1px solid var(--clr-secondary);
    padding: 1em;
-   width: 300px;
+  
    display: flex;
    justify-content: center;
    align-items: flex-start;
@@ -29,4 +29,23 @@ border-left: 1px solid var(--clr-secondary);
    
     border: 1px solid var(--clr-secondary);
   
+}
+
+
+@media (max-width:600px) {
+ 
+    .single-product{
+  width: 90%;
+  border-right: 1px solid var(--clr-secondary);
+  align-items: center;
+     
+    }
+    .single-product>img{
+        width: 80%;
+        height: 300px;
+       
+        border: 1px solid var(--clr-secondary);
+        /* border: 0; */
+      
+    }
 }

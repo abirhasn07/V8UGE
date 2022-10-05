@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { StoreContextProvider } from './context/ShoppingCartContext';
-import Blog from './pages/Blog';
+import CartPage from './pages/CartPage';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Notfound from './pages/Notfound';
@@ -15,8 +15,8 @@ const App = () => {
 				<Route element={<Home />} path="/" />
 				<Route element={<Login />} path="/login" />
 				<Route element={<SignUp />} path="/signUp" />
-				<Route element={<Blog />} path="/blog" />
-				<Route element={<SingleProductPage />} path=":id/singleProduct"/>
+				<Route element={<CartPage />} path="/cartPage" />
+				<Route element={<SingleProductPage />} path=":id/singleProduct" />
 
 				<Route element={<Notfound />} path="*" />
 			</Routes>

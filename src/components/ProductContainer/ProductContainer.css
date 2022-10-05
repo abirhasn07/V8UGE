@@ -7,6 +7,7 @@
 
 .section-header{
     padding-block: 2em;
+    
 } 
 
 .char{
@@ -20,4 +21,21 @@
     -moz-transition: transform .3s ease-in-out;
     -ms-transition: transform .3s ease-in-out;
     -o-transition: transform .3s ease-in-out;
+}
+
+@media (max-width:600px) {
+    .section-header h2{
+        font-size: 42px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .swiper-slide{
+        width: 100% !important;
+    }
+    .swiper-container{
+        width: 100% !important;
+     
+    }
+    .swiper-slide>img{}
 }

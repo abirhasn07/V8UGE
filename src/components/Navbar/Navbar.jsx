@@ -46,16 +46,19 @@ const Navbar = () => {
 					<li>
 						<FaSearch color="#252525" size={'2rem'} />
 					</li>
-					<Link to={"/cartPage"} className="cart-icon" data-count={cartQuantity}>
+					<Link
+						to={'/cartPage'}
+						className="cart-icon"
+						data-count={cartQuantity}>
 						<BsFillCartFill color="#252525" size={'2rem'} />
 					</Link>
 					<li className="wishlist" data-count="0">
 						<BsFillHeartFill color="#252525" size={'1.8rem'} />
 					</li>
 					{isLoginTrue ? (
-						<li>
+						<Link to={'/login'}>
 							<FaUserCircle color="#252525" size={'1.8rem'} />
-						</li>
+						</Link>
 					) : (
 						<li>
 							<FaUserCircle color="#252525" size={'1.8rem'} />

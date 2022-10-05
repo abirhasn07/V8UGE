@@ -57,6 +57,18 @@
     margin-top: 1em;
  
 }
+@media (max-width:600px) {
+    .input-field{
+        width: 68%;
+    }
+    .sign-up>h2{
+        text-align: center;
+        margin-block: 6rem 1em;
+        font-size: 2.5rem;
+
+    
+    }
+}
 /* SIGN UP PAGE STYLING  */
 /* SINGLE PRODUCT PAGE STYLING  */
 .single-product-page{

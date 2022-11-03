@@ -16,7 +16,7 @@ const Hero = () => {
 							<div className="">
 								<h2
 									id="title"
-									className="lg:text-6xl lg:w-[80%] text-3xl font-bold text-black my-4 leading-[100%] w-full mx-auto lg:mb-8"
+									className="lg:text-6xl lg:w-[80%] text-xl font-bold w-full text-black my-4 leading-[100%]  mx-auto lg:mb-8"
 								>
 									{item.title}
 								</h2>

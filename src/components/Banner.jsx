@@ -1,17 +1,36 @@
 import React from 'react';
+import { banner } from '../database/banner';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Autoplay, Pagination } from 'swiper';
 
 const Banner = () => {
-	const img =
-		'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/weekly_Best_Sellers_T0GtNfzeoG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667489774388';
 	return (
-		<div className="w-[90%] mx-auto my-8">
-			<img
-				src={img}
-				alt="discount banner"
-				loading="lazy"
-				width={'95%'}
-				className="h-[90px] object-cover rounded-lg mx-auto"
-			/>
+		<div className="w-[90%] mx-auto my-4">
+			<Swiper
+				spaceBetween={30}
+				centeredSlides={true}
+				autoplay={{
+					delay: 5500,
+					disableOnInteraction: false,
+				}}
+				loop={true}
+				pagination={{
+					clickable: true,
+				}}
+				modules={[Autoplay, Pagination]}
+				className="mySwiper"
+			>
+				{banner.map((item, index) => (
+					<SwiperSlide key={index}>
+						<img src={item.img} width={'95%'} className="mx-auto rounded" />
+					</SwiperSlide>
+				))}
+			</Swiper>
 		</div>
 	);
 };

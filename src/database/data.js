@@ -107,3 +107,63 @@ export const newYearExclusive = [
         price: 1999,
     },
 ]
+
+
+
+
+export const categories = [
+    {
+        name: 'bags',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/bags_T0EwpTz41a.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969686'
+    },
+    {
+        name: 'kids',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/woman_rSRJzS-iLX.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969514'
+    },
+    {
+        name: 'woman',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/woman_rSRJzS-iLX.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969514'
+    },
+    {
+        name: 'sneakers',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/sneakers_xGpAAdXeSC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969691'
+    },
+    {
+        name: 'watches',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/watch_KxS4T9Kq1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969068'
+    },
+    {
+        name: 'glass',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/sunglass_KYcTxKds8R.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969308'
+    },
+    {
+        name: 'man',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/man_ZVKPr9-Ab.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659968942'
+    },
+    {
+        name: 'sports',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/sports_wmJl60DLv.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969088'
+    },
+]
+
+
+export const socialMedia = [
+    {
+        img: 'https://ik.imagekit.io/abirhasan/tr:w-298,h-298/v8uge_cloth_store/Social_Media/5_S9l9s2vtb.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667672198193'
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Social_Media/4_4eaBwu4Gf-.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667672198023'
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Social_Media/2_ARAauHKBC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667672197937'
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Social_Media/3_aVR6GkgXVD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667672197748'
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Social_Media/5__1__fKhzAvZZAD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667672197734'
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Social_Media/6_bYojE7OBD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667672197710'
+    },
+]

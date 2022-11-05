@@ -9,7 +9,7 @@ import { heroData } from '../database/data';
 const Hero = () => {
 	return (
 		<section className="h-full lg:mt-[60px] mt-[100px] w-[90%] mx-auto">
-			<Swiper className="mySwiper" scrollbar={false}>
+			<Swiper className="mySwiper" scrollbar={false} loop={true}>
 				{heroData.map((item, index) => {
 					return (
 						<SwiperSlide key={index}>

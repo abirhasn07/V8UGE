@@ -8,10 +8,30 @@ import 'swiper/css';
 import { Autoplay } from 'swiper';
 import { categories } from '../database/data';
 const Categories = () => {
+	const catList = categories.map((cat, index) => {
+		return (
+			<SwiperSlide
+				className="h-full  cursor-pointer hover:border-[1px] border-gray-500/75 rounded"
+				key={index}
+			>
+				<figure className="text-center flex justify-center flex-col items-center">
+					<img
+						src={cat.img}
+						alt={cat.name}
+						loading="lazy"
+						className="h-[90px] w-[90px] object-contain hover:scale-110 transition-scale duration-100"
+					/>
+					<figcaption className="my-2 text-center text-base">
+						{cat.name}
+					</figcaption>
+				</figure>
+			</SwiperSlide>
+		);
+	});
 	return (
 		<div className="my-8 flex items-center h-[200px] ">
 			<Swiper
-				slidesPerView={1}
+				slidesPerView={3}
 				spaceBetween={10}
 				autoplay={{
 					delay: 2500,
@@ -35,26 +55,7 @@ const Categories = () => {
 				modules={[Autoplay]}
 				className="mySwiper"
 			>
-				{categories.map((cat, index) => {
-					return (
-						<SwiperSlide
-							className="h-full bg-gray-300/10 cursor-pointer hover:border-[1px] border-gray-500/75 rounded"
-							key={index}
-						>
-							<figure className="text-center flex justify-center flex-col items-center">
-								<img
-									src={cat.img}
-									alt={cat.name}
-									loading="lazy"
-									className="h-[90px] w-[90px] object-contain hover:scale-110 transition-scale duration-100"
-								/>
-								<figcaption className="my-2 text-center text-base">
-									{cat.name}
-								</figcaption>
-							</figure>
-						</SwiperSlide>
-					);
-				})}
+				{catList}
 			</Swiper>
 		</div>
 	);

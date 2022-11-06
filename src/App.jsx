@@ -1,26 +1,29 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import { StoreContextProvider } from './context/ShoppingCartContext';
-import CartPage from './pages/CartPage';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Notfound from './pages/Notfound';
-import SignUp from './pages/SignUp';
-import SingleProductPage from './pages/SingleProductPage';
-
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
+import 'swiper/css/bundle';
+import Products from './components/Products';
+import Banner from './components/Banner';
+import { bestSeller, newYearExclusive } from './database/data';
+import Categories from './components/Categories';
+import Testimonial from './components/Testimonial';
+import SocialMedia from './components/SocialMedia';
+import Newsletter from './components/Newsletter';
 const App = () => {
+	const weekly_product = bestSeller;
+	const yearly_product = newYearExclusive;
 	return (
-		<StoreContextProvider>
-			<Routes>
-				<Route element={<Home />} path="/" />
-				<Route element={<Login />} path="/login" />
-				<Route element={<SignUp />} path="/signUp" />
-				<Route element={<CartPage />} path="/cartPage" />
-				<Route element={<SingleProductPage />} path=":id/singleProduct" />
-
-				<Route element={<Notfound />} path="*" />
-			</Routes>
-		</StoreContextProvider>
+		<div className="max-w-[1980px] mx-auto font-outfit font-400">
+			<Navbar />
+			<Hero />
+			<Categories />
+			<Products productsData={weekly_product} />
+			<Banner />
+			<Products productsData={yearly_product} />
+			<Testimonial />
+			<SocialMedia />
+			<Newsletter />
+		</div>
 	);
 };
 

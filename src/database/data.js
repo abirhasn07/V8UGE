@@ -1,155 +1,19 @@
-export const products = [
+export const heroData = [
     {
-        productName: "air jordan 1 retro",
-        productPrice: 3399,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-300/DO9369-101-1_e86oLhB0kl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478585335",
-        id: 1,
-        cat:"sneakers"
+        img: "https://ik.imagekit.io/abirhasan/tr:w-1000/v8uge_cloth_store/banner-1_fKA07NOER.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667481328402",
+
+
+        title: 'Make Your Summer Fashion More Elegant'
+
     },
-    {
-        productName: "AIR JORDAN 1 ZOOM",
-        productPrice: 2599,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-300/CT0979-500-1_v-gYn01YxY.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478585532",
-        id: 2,
-        cat:"sneakers"
-    },
-    {
-        productName: "AIR JORDAN 1 MID",
-        productPrice: 5999,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-300/DN3738-400_cLqg3eLxs.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478584708",
-        id: 3,
-        cat:"sneakers"
-    },
-    {
-        productName: "AIR JORDAN 1 ACCLIMATE",
-        productPrice: 2799,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-300/DX2667-600-1_7HHq2Pvsn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478584886",
-        id: 4,
-        cat:"sneakers"
-    },
-    {
-        productName: "air force red retro",
-        productPrice: 2399,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-300/DH3718-600-1_KedXgONUFt.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478585207"
-        , id: 5,
-        cat:"sneakers"
-    },
-    {
-        productName: "air force 1 mid",
-        productPrice: 3399,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-300/DQ8766-002-1_5zyuTyHr8u.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478585371"
-        , id: 6,
-        cat:"sneakers"
-    },
-    {
-        productName: "air force 1",
-        productPrice: 3399,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-300/DO9456-100-1_DH6F-_AC4C.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478585396"
-        , id: 7,
-        cat:"sneakers"
-    },
-// MEN PRINTED HALF SHIRT
+
+
 
     {
-        productName: "orange retro shirt",
-        productPrice: 399,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/Printed-Shirt__3__Vo-Cs6mBt.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478376991"
-        , id: 8,
-        cat:"shirt"
-    },
-    {
-        productName: "leaf half shirt",
-        productPrice: 599,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/Printed-Shirt__9__r_ZzNSqFF.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478377980"
-        , id: 9,
-        cat:"shirt"
-    },
-    {
-        productName: "mexican bloq shirt",
-        productPrice: 999,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/Printed-Shirt__6__AOpWwpaDr.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478378512"
-        , id: 21,
-        cat:"shirt"
-    },
-    {
-        productName: "chines design shirt",
-        productPrice: 199,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/Printed-Shirt__10__ee1O8YxEk.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478378649"
-        , id: 10,
-        cat:"shirt"
-    },
-    {
-        productName: "red green shirt",
-        productPrice: 599,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/Printed-Shirt__4__nA8CbB7yi.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478379832"
-        , id: 11,
-        cat:"shirt"
-    },
-    {
-        productName: "spanish retro shirt",
-        productPrice: 999,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/Printed-Shirt__8__4uJqPqjf1h.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664478380147"
-        , id: 12,
-        cat:"shirt"
-    },
-    
-    
-    // EXCLUSIVE PRODUCTS 
-    {
-        productName: "trouser",
-        productPrice: 699,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/frank-flores-eyFcZLLYvfA-unsplash_4UDE3WarH.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1664603119097"
-        , id: 13,
-        cat:"exclusive"
-    },
-    {
-        productName: "hand paint t-shirt",
-        productPrice: 699,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/abdullah-ansari-CgXGPatEn9Q-unsplash_KadE7gUOq.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1664603118064"
-        , id: 14,
-        cat:"exclusive"
-    },
-    {
-        productName: "blue jacket",
-        productPrice: 1799,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/drop-the-label-movement-yPAiyUfZebY-unsplash_1x1r1TEvfT.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1664603117160"
-        , id: 15,
-        cat:"exclusive"
-    },
-    {
-        productName: "black hat",
-        productPrice: 99,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/ismail-taibi-EZbDxmvsh4g-unsplash_ejweGIn_l.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1664603116829"
-        , id: 16,
-        cat:"exclusive"
-    },
-    {
-        productName: "handmade sweater",
-        productPrice: 1099,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/Rectangle_10_3rvPKXcysH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664522677040"
-        , id: 17,
-        cat:"exclusive"
-    },
-    {
-        productName: "grey sweater",
-        productPrice: 1299,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/Rectangle_8_F_Y3iKnPB.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664522676865"
-        , id: 18,
-        cat:"exclusive"
-    },
-    {
-        productName: "white sweater",
-        productPrice: 2099,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/Rectangle_9_rm-2M73Ei.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664522676699"
-        , id: 19,
-        cat:"exclusive"
-    },
-    {
-        productName: "hand color jacket",
-        productPrice: 1399,
-        productImage: "https://ik.imagekit.io/abirhasan/tr:w-250/Featured_Image_1_LOvP82gw9.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1664040186269"
-        , id: 20,
-        cat:"exclusive"
+        title: 'Make Your Summer Fashion More Elegant',
+        img: "https://ik.imagekit.io/abirhasan/tr:w-1000/v8uge_cloth_store/banner-2_pXJ-OA2Co.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667481331667",
+
+
     },
 
 
@@ -157,3 +21,149 @@ export const products = [
 
 
 
+export const bestSeller = [
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/product___2__wW9qQbq4W.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667486403474',
+        name: 'ladies product',
+        price: 750,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/product___3__31GMu_9Qh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667486403240',
+        name: 'ladies product',
+        price: 850,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/product___1__8DnyAob--I.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667486403138',
+        name: 'ladies product',
+        price: 950,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/product___7__Zhqpi0T6Ci.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667486402512',
+        name: 'ladies product',
+        price: 599,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/product___8__NUXcIhnTl.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667486402433',
+        name: 'ladies product',
+        price: 699,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/product___4__kDRra1LnaH.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667486401546',
+        name: 'ladies product',
+        price: 899,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/product___5__yoGwbJc1VR.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667486401319',
+        name: 'ladies product',
+        price: 799,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/product___6__rsf3Q2oc0.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667486400999',
+        name: 'ladies product',
+        price: 999,
+    },
+]
+
+
+export const newYearExclusive = [
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Rectangle_9_mWsDEYae6.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667491710826',
+        name: 'exclusive product',
+        price: 1299,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/exclusive_product___1__3vrdt-iKL.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667490498632',
+        name: 'exclusive product',
+        price: 1399,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/exclusive_product___2__njulqHORf.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667490498832',
+        name: 'exclusive product',
+        price: 1499,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/exclusive_product___6__3nkmmsYzh.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667490498964',
+        name: 'exclusive product',
+        price: 1599,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/exclusive_product___5__8zRnunA-cc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667490499039',
+        name: 'exclusive product',
+        price: 1699,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/exclusive_product___8__0qrOFi70D-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667490499103',
+        name: 'exclusive product',
+        price: 1799,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/exclusive_product___3__rNcjyE-alU.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667490499273',
+        name: 'exclusive product',
+        price: 1899,
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/exclusive_product___4__mGik7atYXm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667490499433',
+        name: 'exclusive product',
+        price: 1999,
+    },
+]
+
+
+
+
+export const categories = [
+    {
+        name: 'bags',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/bags_T0EwpTz41a.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969686'
+    },
+    {
+        name: 'kids',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/woman_rSRJzS-iLX.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969514'
+    },
+    {
+        name: 'woman',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/woman_rSRJzS-iLX.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969514'
+    },
+    {
+        name: 'sneakers',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/sneakers_xGpAAdXeSC.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969691'
+    },
+    {
+        name: 'watches',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/watch_KxS4T9Kq1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969068'
+    },
+    {
+        name: 'glass',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/sunglass_KYcTxKds8R.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969308'
+    },
+    {
+        name: 'man',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/man_ZVKPr9-Ab.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659968942'
+    },
+    {
+        name: 'sports',
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Categories/sports_wmJl60DLv.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667659969088'
+    },
+]
+
+
+export const socialMedia = [
+    {
+        img: 'https://ik.imagekit.io/abirhasan/tr:w-298,h-298/v8uge_cloth_store/Social_Media/5_S9l9s2vtb.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667672198193'
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Social_Media/4_4eaBwu4Gf-.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667672198023'
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Social_Media/2_ARAauHKBC.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667672197937'
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Social_Media/3_aVR6GkgXVD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667672197748'
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Social_Media/5__1__fKhzAvZZAD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667672197734'
+    },
+    {
+        img: 'https://ik.imagekit.io/abirhasan/v8uge_cloth_store/Social_Media/6_bYojE7OBD.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1667672197710'
+    },
+]
